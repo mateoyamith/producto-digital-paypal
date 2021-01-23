@@ -5,6 +5,7 @@
 
 .row {
     display: flex;
+    align-items: center;
 }
 
 .col-1 {
@@ -70,9 +71,29 @@
     padding: 10px;
 }
 
+.img-1 {
+    width: 272px;
+    height: 248px;
+}
+
+.img-2 {
+    width: 217px;
+    height: 207px;
+}
+
+.img-3 {
+    width: 230px;
+    height: 230px;
+}
+
+.text {
+    text-align: start;
+}
+
 @media(max-width: 900px) {
     .row {
         display: inherit;
+        align-items: none;
     }
     .col-1,
     .col-2,
